@@ -3,5 +3,5 @@
 - hosts: localhost
   tasks: # набор команд которые нужно выполнить
     - ansible.builtin.file: # file – управляет файлами и директориями
-        name: /tmp/ansible_was_here
+        path: /tmp/ansible_was_here
         state: touch # выполнит команду touch, если файла не существует. И – идемпотентность
