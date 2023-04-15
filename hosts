@@ -1,2 +1,5 @@
 [localhost]
 localhost ansible_connection=local
+
+[db]
+192.168.50.22
